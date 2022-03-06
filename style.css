@@ -60,3 +60,50 @@ button {
 button:hover {
     background-color: #ffdf2b;
 }
+
+/*Main section*/
+
+.main-section {
+    display: flex;
+    justify-content:space-between;
+    width: 80%;
+    height: 80vh;
+    margin:auto;
+    margin-top: 100px;
+}
+
+.profile-picture img{
+    height: 60%;
+}
+
+.main-info {
+    flex-basis: 70%;
+    color: white;
+    padding-left: 10%;
+}
+
+.main-info h2{
+    font-size: 36px;
+}
+
+.main-info h3{
+    font-size: 20px;
+}
+
+.main-info p {
+    font-size: 18px;
+    text-align: justify;
+}
+
+@media(max-width: 700px) {
+    .main-section{
+        flex-direction: column;
+    }
+    .profile-picture img{
+        height: 50%;
+        margin-top: -50px;
+    }
+    .main-info{
+        margin-top: -200px;
+    }
+}
