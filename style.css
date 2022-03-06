@@ -107,3 +107,34 @@ button:hover {
         margin-top: -200px;
     }
 }
+
+/*Experience*/
+#experience {
+    width: 80%;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.experience {
+    font-size: 36px;
+    text-align: center;
+    color: white;
+}
+.work{
+    margin-top: 100px;
+}
+.work li {
+    font-size: 18px;
+}
+.work a {
+    color: red;
+    font-size: 18px;
+}
+@media(max-width: 700px){
+    #experience{
+        margin-top: 450px;
+    }
+    .work {
+        margin-top: 30px;
+    }
+}
