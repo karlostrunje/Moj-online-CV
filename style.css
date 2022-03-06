@@ -192,3 +192,25 @@ p {
         margin-top: 100px;
     }
 }
+
+/*Contact*/
+#contact {
+    margin-top: 150px;
+}
+
+.contact {
+    font-size: 36px;
+    text-align: center;
+    color: white;
+}
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.icon img {
+    margin-right: 20px;
+}
